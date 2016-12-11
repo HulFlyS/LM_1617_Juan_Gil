@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE stock SYSTEM "Ex4.dtd">
+<stock>	
+    <new-car>	
+        <model>Ford Mondeo</model>	
+        <price>20000</price>	
+    </new-car>	
+    <used-car>	
+        <model>Ford Focus</model>	
+        <price>6000</price>	
+        <mileage>79000</mileage>	
+        <condition>So good</condition>	
+    </used-car>	
+    <used-car>	
+        <model>Ford Fiesta</model>	
+        <price>3000</price>	
+        <mileage>120000</mileage>	
+    </used-car>	
+</stock>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<cookbook name="Kitchen computer">
+    <recipe name="Macaroni with tomato">
+        <ingredients ingredient1="Macaroni" ingredient2="Fried tomato" ingredient3="Water" inrgedient4="Salt"></ingredients>
+        <steps step1="Boil the water" step2="Add salt to water" step3="Cook the macaroni" step4="Filter macaroni" step5="Add fried tomato to macaroni"></steps>
+    </recipe>
+    <recipe name="Mediterranean salad">
+        <ingredients ingredient1="Oil" ingredient2="Salt" ingredient3="Vinegar" ingredient4="Lettuce" ingredient5="Tomato" ingredient6="Onion" ingredient7="Tuna"></ingredients>
+        <steps step1="Cut lettuce" step2="Cut tomato" step3="Cut onion" step4="Add all ingredients in a bowl"
+               step5="Mix everything"></steps>
+    </recipe>
+</cookbook>

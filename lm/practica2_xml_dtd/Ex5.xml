@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE games SYSTEM "Ex5.dtd">
+<matches>	
+    <match	score="2-1">	
+	 	<hometeam>Betis</hometeam>	
+	 	<visitorteam>Sevilla</visitorteam>	
+	 	<scores>	
+            <score time= "23">	
+                <player>Ruben Castro</player>	
+            </score>	
+            <score	time="53" gol="penalty">	
+                <player>Vietto</player>	
+            </score>	
+             <score	time="81">	
+                <player>Alex Alegría</player>	
+            </score>
+        </scores>	
+        <yellowcard>
+            <player>Vietto</player>	
+            <player>Durmisi</player>
+            <player>Piccini</player>
+        </yellowcard>	
+        <redcard>	
+	 	     <player>Nasri</player>	
+        </redcard>	
+    </match>	
+</matches>

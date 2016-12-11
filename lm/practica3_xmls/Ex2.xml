@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+    <book>
+        <title>A Semantic Web Primer</title>
+        <autor>F. van Harmelen</autor>
+        <year>2004</year>
+    </book>
+    <book>
+        <title>Cambridge, MA: MIT Press</title>
+        <autor>Antoniou G</autor>
+        <year>2004</year>
+    </book>
+    <book>
+        <title>The Semantic Web: A Guide to the Future of XML</title>
+        <autor>Daconts, M.C.</autor>
+        <year>2003</year>
+    </book>
+    <book>
+        <title>Web Services</title>
+        <autor>L.J. Orbst</autor>
+        <year>2003</year>
+    </book>
+    <book>
+        <title>Knowledge Management. New York wiley</title>
+        <autor>K.T. Smith</autor>
+        <year>2003</year>
+    </book>
+</books>

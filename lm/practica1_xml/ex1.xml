@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<teacher name="Juan Diego" surname="Pérez">
+    <subjet name="Lenguaje de Marcas">
+        <student firtsname="Juan" lastname="Hidalgo" addres="C/Conde Halcón" mail="juanhid@gmail.com" telephone="656214879" mark="6"></student>
+        <student firtsname="Pepe" lastname="López" addres="C/San Jacinto" mail="pepelop@gmail.com" telephone="656225679" mark="4"></student>
+        <student firtsname="Carlos" lastname="Fernández" addres="C/Sierpes" mail="carlosfer@gmail.com" telephone="623698541" mark="4"></student>
+        <student firtsname="Jesús" lastname="Sánchez" addres="C/Tetuán" mail="jesussan@gmail.com" telephone="659847532" mark="5"></student>
+        <student firtsname="María" lastname="Ibáñez" addres="C/Pensamiento" mail="mariaiba@gmail.com" telephone="659852314" mark="6"></student>
+        <student firtsname="Mateo" lastname="Gallego" addres="C/Previsión" mail="mateogal@gmail.com" telephone="631524589" mark="2"></student>
+        <student firtsname="Francisco" lastname="Contreras" addres="C/Llanes" mail="franciscocon@gmail.com" telephone="678253102" mark="4"></student>
+        <student firtsname="Cecilia" lastname="Estrada" addres="C/Resolana" mail="ceciliaest@gmail.com" telephone="698521341" mark="8"></student>
+        <student firtsname="Ana" lastname="Rosado" addres="C/Rosaleda" mail="anaros@gmail.com" telephone="687635433" mark="5"></student>
+        <student firtsname="Fernando" lastname="Rodriguez" addres="C/Campana" mail="fernandorod@gmail.com" telephone="600201050" marl=""></student>
+    </subjet>
+    <subjet name="Gestión de Base de Datos">
+       <student firtsname="Juan" lastname="Hidalgo" addres="C/Conde Halcón" mail="juanhid@gmail.com" telephone="656214879" mark="5"></student>
+        <student firtsname="Pepe" lastname="López" addres="C/San Jacinto" mail="pepelop@gmail.com" telephone="656225679" mark="6"></student>
+        <student firtsname="Carlos" lastname="Fernández" addres="C/Sierpes" mail="carlosfer@gmail.com" telephone="623698541" mark="5"></student>
+        <student firtsname="Jesús" lastname="Sánchez" addres="C/Tetuán" mail="jesussan@gmail.com" telephone="659847532" mark="7"></student>
+        <student firtsname="María" lastname="Ibáñez" addres="C/Pensamiento" mail="mariaiba@gmail.com" telephone="659852314" mark="6"></student>
+        <student firtsname="Mateo" lastname="Gallego" addres="C/Previsión" mail="mateogal@gmail.com" telephone="631524589" mark="3"></student>
+        <student firtsname="Francisco" lastname="Contreras" addres="C/Llanes" mail="franciscocon@gmail.com" telephone="678253102" mark="3"></student>
+        <student firtsname="Cecilia" lastname="Estrada" addres="C/Resolana" mail="ceciliaest@gmail.com" telephone="698521341" mark="9"></student>
+        <student firtsname="Ana" lastname="Rosado" addres="C/Rosaleda" mail="anaros@gmail.com" telephone="687635433" mark="5"></student>
+        <student firtsname="Fernando" lastname="Rodriguez" addres="C/Campana" mail="fernandorod@gmail.com" telephone="600201050" marl="5"></student>
+    </subjet>
+</teacher>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+    <busroute name="1">
+        <way>
+            <stop name="Gta. Pluz Ultra">
+            <schedule hour1="8:00" hour2="9:00" hour3="10:00" hour4="11:00" hour5="12:00" hour6="13:00" hour7="14:00" hour9="15:00" hour10="16:00" hour11="17:00" hour12="18:00" hour13="19:00" hour14="20:00" hour15="21:00" hour16="22:00" Hour17="23:00">
+            </schedule>
+            </stop>
+            <stop name="Virgen del Rocio">
+            <schedule hour1="8:10" hour2="9:10" hour3="10:10" hour4="11:10" hour5="12:10" hour6="13:10" hour7="14:10" hour9="15:10" hour10="16:10" hour11="17:10" hour12="18:10" hour13="19:10" hour14="20:10" hour15="21:10" hour16="22:10" Hour17="23:10">
+            </schedule>
+            </stop>
+            <stop name="Prado">
+            <schedule hour1="8:20" hour2="9:20" hour3="10:20" hour4="11:20" hour5="12:20" hour6="13:20" hour7="14:20" hour9="15:20" hour10="16:20" hour11="17:20" hour12="18:20" hour13="19:20" hour14="20:20" hour15="21:20" hour16="22:20" Hour17="23:20">
+            </schedule>
+            </stop>
+            <stop name="Puerta Osario">
+            <schedule hour1="8:30" hour2="9:30" hour3="10:30" hour4="11:30" hour5="12:30" hour6="13:30" hour7="14:30" hour9="15:30" hour10="16:30" hour11="17:30" hour12="18:30" hour13="19:30" hour14="20:30" hour15="21:30" hour16="22:30" Hour17="23:30">
+            </schedule>
+            </stop>
+            <stop name="Miraflores">
+            <schedule hour1="8:40" hour2="9:40" hour3="10:40" hour4="11:40" hour5="12:40" hour6="13:40" hour7="14:40" hour9="15:40" hour10="16:40" hour11="17:40" hour12="18:40" hour13="19:40" hour14="20:40" hour15="21:40" hour16="22:40" Hour17="23:40">
+            </schedule>
+            </stop>
+            <stop name="Polígono Norte">
+            <schedule hour1="8:50" hour2="9:50" hour3="10:50" hour4="11:50" hour5="12:50" hour6="13:50" hour7="14:50" hour9="15:50" hour10="16:50" hour11="17:50" hour12="18:50" hour13="19:50" hour14="20:50" hour15="21:50" hour16="22:50" Hour17="23:50">
+            </schedule>
+            </stop>
+        </way>
+        <return>
+            <stop name="Polígono Norte">
+            <schedule hour1="8:00" hour2="9:00" hour3="10:00" hour4="11:00" hour5="12:00" hour6="13:00" hour7="14:00" hour9="15:00" hour10="16:00" hour11="17:00" hour12="18:00" hour13="19:00" hour14="20:00" hour15="21:00" hour16="22:00" Hour17="23:00">
+            </schedule>
+            </stop>
+            <stop name="Cruz Roja">
+            <schedule hour1="8:10" hour2="9:10" hour3="10:10" hour4="11:10" hour5="12:10" hour6="13:10" hour7="14:10" hour9="15:10" hour10="16:10" hour11="17:10" hour12="18:10" hour13="19:10" hour14="20:10" hour15="21:10" hour16="22:10" Hour17="23:10">
+            </schedule>
+            </stop>
+            <stop name="Puerta Osario">
+            <schedule hour1="8:20" hour2="9:20" hour3="10:20" hour4="11:20" hour5="12:20" hour6="13:20" hour7="14:20" hour9="15:20" hour10="16:20" hour11="17:20" hour12="18:20" hour13="19:20" hour14="20:20" hour15="21:20" hour16="22:20" Hour17="23:20">
+            </schedule>
+            </stop>
+            <stop name="Prado">
+            <schedule hour1="8:30" hour2="9:30" hour3="10:30" hour4="11:30" hour5="12:30" hour6="13:30" hour7="14:30" hour9="15:30" hour10="16:30" hour11="17:30" hour12="18:30" hour13="19:30" hour14="20:30" hour15="21:30" hour16="22:30" Hour17="23:30">
+            </schedule>
+            </stop>
+            <stop name="Virgen del Rocio">
+            <schedule hour1="8:40" hour2="9:40" hour3="10:40" hour4="11:40" hour5="12:40" hour6="13:40" hour7="14:40" hour9="15:40" hour10="16:40" hour11="17:40" hour12="18:40" hour13="19:40" hour14="20:40" hour15="21:40" hour16="22:40" Hour17="23:40">
+            </schedule>
+            </stop>
+            <stop name="Gta. Plus Ultra">
+            <schedule hour1="8:50" hour2="9:50" hour3="10:50" hour4="11:50" hour5="12:50" hour6="13:50" hour7="14:50" hour9="15:50" hour10="16:50" hour11="17:50" hour12="18:50" hour13="19:50" hour14="20:50" hour15="21:50" hour16="22:50" Hour17="23:50">
+            </schedule>
+            </stop>
+        </return>
+    </busroute>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE cateneMontuose SYSTEM "Ex3.dtd">
+<cateneMontuose>	
+    <catenaMontuosa>	
+        <monte>	
+            <nome>Mulhacén</nome>	
+            <regione>Granada</regione>	
+            <altezza unitaMisura="metros">3480</altezza>	
+        </monte>	
+    </catenaMontuosa>
+    <catenaMontuosa>	
+        <monte>	
+            <nome>Aneto</nome>
+            <regione>Huesca</regione>
+        </monte>	
+    </catenaMontuosa>	
+    <catenaMontuosa>	
+        <monte>	
+            <nome>Pandera</nome>
+            <altezza unitaMisura="metros">1872</altezza>
+        </monte>	
+    </catenaMontuosa>
+</cateneMontuose>	

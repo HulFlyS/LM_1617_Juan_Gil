@@ -1,0 +1,41 @@
+#barra {
+  position: fixed;
+  background-color: #AAAAAA;
+  border: 5px solid navy;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  top:100px;
+  left: 0;
+  height: 300px;
+  widht: 180px;
+  box-sizing: border-box;
+}
+
+#barra div {
+  float: left;
+  overflow-y: auto;
+}
+
+#content {
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#content img{
+  width: 130px;
+}
+
+#icons {
+  width: 60px;
+}
+
+#icons {
+  margin-top: 30px;
+  z-index: 1;
+}
+
+.arrow {
+  widht: 30px;
+  height: 30px;
+}

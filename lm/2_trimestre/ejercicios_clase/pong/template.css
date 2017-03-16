@@ -1,0 +1,25 @@
+#container{
+width: 800px;
+height: 600px;
+margin: 30px auto;
+border: 1px solid black;
+position: relative
+}
+
+#racket2 {
+  width: 50px;
+  height: 150px;
+  background-color: blue;
+  position: absolute;
+  right: 740px;
+  top: 225px;
+}
+
+#racket1 {
+  width: 50px;
+  height: 150px;
+  background-color: orange;
+  position: absolute;
+  left: 740px;
+  top: 225px;
+}

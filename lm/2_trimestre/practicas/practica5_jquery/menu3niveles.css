@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+  width: 40%;
+  margin: 20px auto;
+}
+
+.first {
+	width: 100%;
+}
+
+.second {
+	position: absolute;
+	left: 100%;
+	top: 0px;
+	width: 100%;
+
+}
+.box1{
+  float: left;
+  width: 25%;
+  background-color: lightgreen;
+}
+
+.box2 {
+ position: relative;
+ background-color: lightblue;
+}
+
+.box3 {
+ float: left;
+ background-color: yellow;
+}

@@ -1,0 +1,137 @@
+<html>
+<head>
+	<title>jQuery Template</title>
+	<link rel="stylesheet" type="text/css" href="acordeon_animate.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="cuerpo">
+	<div class="general">
+		<div class="barra">
+			<img class="arrow" id="open"  src="img/open.png"/>
+			<p>
+				Star Wars: Episode I - The Phantom Menace
+			</p>
+		</div>
+		<div class="contenido">
+			<img class="img" id="sw1img" src="img/sw1.jpg"/>
+			<p>
+				Ambientada treinta años antes que "La guerra de las galaxias" (1977), muestra la
+				infancia de Darth Vader, el pasado de Obi-Wan Kenobi y el resurgimiento de los
+				Sith, los caballeros Jedi dominados por el Lado Oscuro. La Federación de
+				Comercio ha bloqueado el pequeño planeta de Naboo, gobernado por la joven
+				Reina Amidala; se trata de un plan ideado por Sith Darth Sidious, que,
+				manteniéndose en el anonimato, dirige a los neimoidianos, que están al mando de
+				la Federación. El Jedi Qui-Gon Jinn y su aprendiz Obi-Wan Kenobi convencen a
+				Amidala para que vaya a Coruscant, la capital de la República y sede del Consejo
+				Jedi, y trate de neutralizar esta amenaza. Pero, al intentar esquivar el bloqueo, la
+				nave real resulta averiada, viéndose así obligada la tripulación a aterrizar en el
+				desértico y remoto planeta de Tatooine...
+			</p>
+		</div>
+	</div>
+	<div class="general">
+		<div class="barra">
+			<img class="arrow" id="open"  src="img/open.png"/>
+			<p>
+				Star Wars: Episode II - Attack of the Clones
+			</p>
+		</div>
+		<div class="contenido">
+			<img class="img" id="sw2img" src="img/sw2.jpg"/>
+			<p>
+				Corren tenebrosos tiempos para la República, que continúa envuelta en luchas y
+				sumida en el caos. Un movimiento separatista, formado por centenares de planetas
+				y poderosas alianzas encabezadas por el misterioso conde Dooku, amenaza la
+				galaxia. Ni siquiera los Jedi parecen capaces de conjurar el peligro. Este
+				movimiento provoca el estallido de las guerras clones, que representa el principio
+				del fin de la República. Para allanar el camino, los separatistas intentan asesinar a
+				la senadora Padme Amidala. Para evitar futuros atentados, su seguridad es
+				encomendada a dos caballeros Jedi.
+			</p>
+		</div>
+	</div>
+	<div class="general">
+		<div class="barra">
+			<img class="arrow" id="open"  src="img/open.png"/>
+			<p>
+				Star Wars: Episode III - Revenge of the Sith
+			</p>
+		</div>
+		<div class="contenido">
+			<img class="img" id="sw3img" src="img/sw3.jpg"/>
+			<p>
+				Último capítulo de la trilogía de precuelas de Star Wars, en el que Anakin Skywalker
+				definitivamente se pasa al lado oscuro. En el Episodio III aparece el General
+				Grievous, un ser implacable mitad-alien mitad-robot, el líder del ejército separatista
+				Droid. Los Sith son los amos del lado oscuro de la Fuerza y los enemigos de los
+				Jedi. Fueron prácticamente exterminados por los Jedi hace mil años, pero esta
+				orden del mal sobrevivió en la clandestinidad.
+			</p>
+		</div>
+	</div>
+	<div class="general">
+		<div class="barra">
+			<img class="arrow" id="open"  src="img/open.png"/>
+			<p>
+				Star Wars: Episode IV - A New Hope
+			</p>
+		</div>
+		<div class="contenido">
+			<img class="img" id="sw4img" src="img/sw4.jpg"/>
+			<p>
+			La princesa Leia, líder del movimiento rebelde que desea reinstaurar la República
+			en la galaxia en los tiempos ominosos del Imperio, es capturada por las Fuerzas
+			Imperiales, capitaneadas por el implacable Darth Vader, el sirviente más fiel del
+			Emperador. El intrépido y joven Luke Skywalker, ayudado por Han Solo, capitán de
+			la nave espacial "El Halcón Milenario", y los androides, R2D2 y C3PO, serán los
+			encargados de luchar contra el enemigo e intentar rescatar a la princesa para
+			volver a instaurar la justicia en el seno de la galaxia.
+			</p>
+		</div>
+	</div>
+	<div class="general">
+		<div class="barra">
+			<img class="arrow" id="open"  src="img/open.png"/>
+			<p>
+				Star Wars: Episode V - The Empire Strikes Back
+			</p>
+		</div>
+		<div class="contenido">
+			<img class="img" id="sw5img" src="img/sw5.jpg"/>
+			<p>
+				Tras un ataque sorpresa de las tropas imperiales a las bases camufladas de la
+				alianza rebelde, Luke Skywalker, en compañía de R2D2, parte hacia el planeta
+				Dagobah en busca de Yoda, el último maestro Jedi, para que le enseñe los
+				secretos de la Fuerza. Mientras, Han Solo, la princesa Leia, Chewbacca, y C3PO
+				esquivan a las fuerzas imperiales y piden refugio al antiguo propietario del Halcón
+				Milenario, Lando Calrissian, en la ciudad minera de Bespin, donde les prepara
+				una trampa urdida por Darth Vader.
+			</p>
+		</div>
+	</div>
+</div>
+	<script>
+
+	  $(function() {
+
+				$("#cuerpo > div > div:nth-child(2)").hide();
+
+					$("#cuerpo > div > div:nth-child(1)").click(function() {
+					$(this).next().animate({
+            opacity: 1,
+    				height: "toggle"
+  				}, 2000);
+					$(this).parent().siblings().children(".contenido").animate({
+            opacity: 0,
+    				height: "hide"
+  				}, 2000);
+					});
+
+				});
+		</script>
+
+</body>
+</html>

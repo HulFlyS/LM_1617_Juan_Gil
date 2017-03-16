@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Template</title>
+	<link rel="stylesheet" type="text/css" href="jquerty1.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>PRACTICA 1</h1>
+	<table id="schedule" border="1">
+		<caption>
+			CLASSROOM SCHEDULE
+		</caption>
+		<tr>
+			<th></th><th>MONDAY</th><th>TUESDAY</th><th>WEDNESDAY</th><th>THURSDAY</th><th>FRIDAY</th>
+		</tr>
+		<tr>
+			<td>8:15</td><td>ISO</td><td>ISO</td><td>ISO</td><td>ISO</td><td>ISO</td>
+		</tr>
+		<tr>
+			<td>9:15</td><td>GBD</td><td>GBD</td><td>GBD</td><td>GBD</td><td>GBD</td>
+		</tr>
+		<tr>
+			<td>10:15</td><td>PAR</td><td>PAR</td><td>PAR</td><td>PAR</td><td>PAR</td>
+		</tr>
+		<tr>
+			<td>11:15</td><th colspan="5">FREE TIME</th>
+		</tr>
+		<tr>
+			<td>11:45</td><td>FHW</td><td>FHW</td><td>FHW</td><td>FHW</td><td>FHW</td>
+		</tr>
+		<tr>
+			<td>12:45</td><td>FOL</td><td>FOL</td><td>FOL</td><td>FOL</td><td>FOL</td>
+		</tr>
+		<tr>
+			<td>13:45</td><td>LM</td><td>LM</td><td>LM</td><td>LM</td><td>LM</td>
+		</tr>
+	</table><br>
+	<table id="marks" border="1">
+		<caption>
+			MARKS LM
+		</caption>
+		<tr>
+			<th>NOMBRE</th><th>APELLIDOS</th><th>NOTA</th>
+		</tr>
+		<tr>
+			<td>Nombre</td><td>Apellidos</td><td>Nota</td>
+		</tr>
+		<tr>
+			<td>Nombre</td><td>Apellidos</td><td>Nota</td>
+		</tr>
+		<tr>
+			<td>Nombre</td><td>Apellidos</td><td>Nota</td>
+		</tr>
+		<tr>
+			<td>Nombre</td><td>Apellidos</td><td>Nota</td>
+		</tr>
+		<tr>
+			<td>Nombre</td><td>Apellidos</td><td>Nota</td>
+		</tr>
+		<tr>
+			<td>Nombre</td><td>Apellidos</td><td>Nota</td>
+		</tr>
+		<tr>
+			<td>Nombre</td><td>Apellidos</td><td>Nota</td>
+		</tr>
+		<tr>
+			<td>Nombre</td><td>Apellidos</td><td>Nota</td>
+		</tr>
+		<tr>
+			<td>Nombre</td><td>Apellidos</td><td>Nota</td>
+		</tr>
+	</table>
+	<p>Lorem ipsum dolor sit amet, consectetur
+	adipiscing elit. Praesent risus nisl,
+	adipiscing quis imperdiet id, blandit
+	ullamcorper mi. Cum sociis natoque
+	penatibus et magnis dis parturient montes.</p>
+	<p class="show">Lorem ipsum dolor sit amet, consectetur
+	adipiscing elit. Praesent risus nisl,
+	adipiscing quis imperdiet id, blandit
+	ullamcorper mi. Cum sociis natoque
+	penatibus et magnis dis parturient montes.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur
+	adipiscing elit. Praesent risus nisl,
+	adipiscing quis imperdiet id, blandit
+	ullamcorper mi. Cum sociis natoque
+	penatibus et magnis dis parturient montes.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur
+	adipiscing elit. Praesent risus nisl,
+	adipiscing quis imperdiet id, blandit
+	ullamcorper mi. Cum sociis natoque
+	penatibus et magnis dis parturient montes.</p>
+	<script>
+	  $(function() {
+			$("h1").addClass("h1")
+			$("#schedule caption").addClass("schedule")
+			$("#marks tr:odd").addClass("marksodd")
+			$("#marks tr:even").addClass("markseven")
+			$("p").hide()
+			$(".show").show()
+	  });
+	</script>
+</body>
+</html>

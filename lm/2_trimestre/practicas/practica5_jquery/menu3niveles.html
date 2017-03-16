@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu 3 Niveles HTML</title>
+  <link rel="stylesheet" type="text/css" href="menu3niveles.css">
+  <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+    <nav id="container">
+        <div class="box1">
+					<h3>1.</h3>
+					<nav class="first">
+						<div class="box2">
+							1.1
+							<nav class="second">
+								<div class="box3">1.1.1&nbsp</div>
+								<div class="box3">1.1.2&nbsp</div>
+								<div class="box3">1.1.3&nbsp</div>
+							</nav>
+						</div>
+						<div class="box2">
+							1.2
+							<nav class="second">
+								<div class="box3">1.2.1&nbsp</div>
+								<div class="box3">1.2.2&nbsp</div>
+								<div class="box3">1.2.3&nbsp</div>
+							</nav>
+						</div>
+						<div class="box2">
+							1.3
+							<nav class="second">
+								<div class="box3">1.3.1&nbsp</div>
+								<div class="box3">1.3.2&nbsp</div>
+								<div class="box3">1.3.3&nbsp</div>
+							</nav>
+						</div>
+					</nav>
+				</div>
+				<div class="box1">
+          <h3>2.</h3>
+          <nav class="first">
+						<div class="box2">
+							2.1
+							<nav class="second">
+								<div class="box3">2.1.1&nbsp</div>
+								<div class="box3">2.1.2&nbsp</div>
+								<div class="box3">2.1.3&nbsp</div>
+							</nav>
+						</div>
+						<div class="box2">
+							2.2
+							<nav class="second">
+								<div class="box3">2.2.1&nbsp</div>
+								<div class="box3">2.2.2&nbsp</div>
+								<div class="box3">2.2.3&nbsp</div>
+							</nav>
+						</div>
+						<div class="box2">
+							2.3
+							<nav class="second">
+								<div class="box3">2.3.1&nbsp</div>
+								<div class="box3">2.3.2&nbsp</div>
+								<div class="box3">2.3.3&nbsp</div>
+							</nav>
+						</div>
+					</nav>
+				</div>
+				<div class="box1">
+          <h3>3.</h3>
+          <nav class="first">
+						<div class="box2">
+							3.1
+							<nav class="second">
+								<div class="box3">3.1.1&nbsp</div>
+								<div class="box3">3.1.2&nbsp</div>
+								<div class="box3">3.1.3&nbsp</div>
+							</nav>
+						</div>
+						<div class="box2">
+							3.2
+							<nav class="second">
+								<div class="box3">3.2.1&nbsp</div>
+								<div class="box3">3.2.2&nbsp</div>
+								<div class="box3">3.2.3&nbsp</div>
+							</nav>
+						</div>
+						<div class="box2">
+							3.3
+							<nav class="second">
+								<div class="box3">3.3.1&nbsp</div>
+								<div class="box3">3.3.2&nbsp</div>
+								<div class="box3">3.3.3&nbsp</div>
+							</nav>
+						</div>
+					</nav>
+				</div>
+				<div class="box1">
+          <h3>4.</h3>
+          <nav class="first">
+						<div class="box2">
+							4.1
+							<nav class="second">
+								<div class="box3">4.1.1&nbsp</div>
+								<div class="box3">4.1.2&nbsp</div>
+								<div class="box3">4.1.3&nbsp</div>
+							</nav>
+						</div>
+						<div class="box2">
+							4.2
+							<nav class="second">
+								<div class="box3">4.2.1&nbsp</div>
+								<div class="box3">4.2.2&nbsp</div>
+								<div class="box3">4.2.3&nbsp</div>
+							</nav>
+						</div>
+						<div class="box2">
+							4.3
+							<nav class="second">
+								<div class="box3">4.3.1&nbsp</div>
+								<div class="box3">4.3.2&nbsp</div>
+								<div class="box3">4.3.3&nbsp</div>
+							</nav>
+						</div>
+					</nav>
+				</div>
+		</nav>
+  <script>
+    $(function() {
+
+    $("#container > div > nav").hide();
+    $("#container > div > nav > div > nav").hide();
+
+    $("#container > div").mouseenter(function() {
+      $(this).children(".first").fadeIn(20);
+    });
+
+    $("#container > div").mouseleave(function() {
+      $(this).children(".first").fadeOut(20);
+    });
+
+    $("#container > div > nav > div").mouseenter(function() {
+      $(this).children().fadeIn(20);
+    });
+
+    $("#container > div > nav > div").mouseleave(function() {
+      $(this).children().fadeOut(20);
+    });
+
+    });
+  </script>
+</body>
+
+</html>

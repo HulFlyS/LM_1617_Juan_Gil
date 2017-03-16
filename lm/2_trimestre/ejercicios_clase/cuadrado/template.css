@@ -1,0 +1,15 @@
+#container{
+width: 600px;
+height: 400px;
+margin: 30px auto;
+border: 1px solid black;
+position: relative
+}
+#square {
+  width: 25px;
+  height: 25px;
+  background-color: orange;
+  position: absolute;
+  left: 280px;
+  top: 180px;
+}

@@ -1,0 +1,18 @@
+.h1{
+  background-color: black;
+  color: white;
+}
+
+.schedule{
+  background-color: red;
+  color: white;
+
+}
+.marksodd{
+  background-color: gray;
+  color: white
+}
+.markseven{
+  background-color: gray;
+  color: black
+}

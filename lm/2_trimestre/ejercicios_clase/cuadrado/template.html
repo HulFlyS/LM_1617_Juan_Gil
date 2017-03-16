@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Template</title>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="template.css">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div id="container">
+		<div id="square"></div>
+	</div>
+
+	<script>
+
+	  $(function() {
+			console.log("HOLA");
+			$("body").keypress(function(event){
+
+				var tecla = event .which;
+				console.log($("#square").css("left"));
+
+				console.log(tecla);
+				//LEFT a
+				if (tecla == 97){
+					$("#square").animate({
+						left : "-=10px"
+					},200);
+				}
+				//UP w
+				if (tecla == 119){
+					$("#square").animate({
+						top : "-=10px"
+					},200);
+				}
+				//DOWN s
+				if (tecla == 115){
+					$("#square").animate({
+						top : "+=10px"
+					},200);
+				}
+				//RIGHT d
+				if (tecla == 100){
+					$("#square").animate({
+						left : "+=10px"
+					},200);
+				}
+			});
+
+
+
+	  });
+	</script>
+
+</body>
+</html>

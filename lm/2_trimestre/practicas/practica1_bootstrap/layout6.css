@@ -1,0 +1,66 @@
+#cabecera{
+ background-image: url(fondo.png);
+}
+#c{
+  padding-top: 10%;
+}
+#c1{
+  margin-top: 2%;
+  color: white;
+  font-size: 150%;
+  font-family: inherit;
+}
+#c2{
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  font-family: inherit;
+}
+#c3{
+  color: white;
+  font-size: 120%;
+  font-family: inherit;
+}
+#tablet img{
+  width: 100%;
+}
+#left img{
+  width: 30%;
+  padding-top: 400%;
+}
+#right img{
+  width: 70%;
+  padding-top: 390%;
+  padding-left: 40%;
+}
+.button{
+  margin-left: 80%;
+  font-size: 12px;
+  padding: 10px 12px;
+  font-family: inherit;
+}
+.headtitle{
+  background-color: #BC0F01;
+  width: 300px;
+  height: 180px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 8%;
+  text-align: center;
+  color: white;
+  font-size: 250%;
+  font-family: inherit;
+}
+.n{
+  padding-top: 22%;
+  font-family: inherit;
+}
+.title{
+  font-size: 250%;
+  text-align: center;
+  font-family: inherit;
+}
+.text{
+  text-align: justify;
+  font-family: inherit;
+}

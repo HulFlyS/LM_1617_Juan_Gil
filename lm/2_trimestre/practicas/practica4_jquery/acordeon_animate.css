@@ -1,0 +1,50 @@
+#cuerpo{
+  overflow-y: auto;
+  width: 60%;
+  margin: auto;
+}
+#sw1img{
+  margin-bottom: -32%;
+}
+#sw2img{
+  margin-bottom: -25%;
+}
+#sw3img{
+  margin-bottom: -20%;
+}
+#sw4img{
+  margin-bottom: -25%;
+}
+#sw5img{
+  margin-bottom: -24%;
+}
+.general{
+  background-color: #AAAAAA;
+  border: 5px solid navy;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow-y: auto;
+  widht: 800px;
+}
+.barra p{
+  margin-left: 40%;
+  margin-bottom: 5%;
+
+}
+.contenido p{
+  margin-left: 30%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.img{
+  widht: 200px;
+  height: 250px;
+  margin-left: 5%;
+}
+.arrow{
+  margin-top: 5%;
+  margin-left: 20%;
+  widht: 30px;
+  height: 30px;
+  margin-bottom: -6%;
+}
